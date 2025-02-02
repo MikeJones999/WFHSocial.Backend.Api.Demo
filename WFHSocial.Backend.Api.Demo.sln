@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Api", "WFHSocial.Api\WFHSocial.Api.csproj", "{C2EF92E7-EE4F-47B8-BB9C-88EEE3F24E02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Api.Application", "WFHSocial.Api.Application\WFHSocial.Api.Application.csproj", "{889C19AD-0387-4272-A20E-4124EBB4485A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Api.Domain", "WFHSocial.Api.Domain\WFHSocial.Api.Domain.csproj", "{A6BE3B9D-23A3-43DD-B0BB-A693A303D5B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Api.Domain.Posts", "WFHSocial.Api.Domain.Posts\WFHSocial.Api.Domain.Posts.csproj", "{9DBB0221-16F0-4CD6-A348-3D13DD2885FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Api.Domain.Users", "WFHSocial.Api.Domain.Users\WFHSocial.Api.Domain.Users.csproj", "{36095C4B-1390-4770-BA58-43E6438D1C6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Api.Infrastructure", "WFHSocial.Api.Infrastructure\WFHSocial.Api.Infrastructure.csproj", "{EA7681B8-C8F0-4346-AEA1-4418C53FA3C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Shared", "WFHSocial.Shared\WFHSocial.Shared.csproj", "{5AD1F5CC-EC84-4855-9034-B7D9E484877A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Utility.LoggingOpenTelemetry", "WFHSocial.Utility.LoggingOpenTelemetry\WFHSocial.Utility.LoggingOpenTelemetry.csproj", "{40053FDC-AD03-48EC-BD57-4FB7092D08C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Utility.StaticHelpers", "WFHSocial.Utility.StaticHelpers\WFHSocial.Utility.StaticHelpers.csproj", "{3142E816-F708-47AA-A74E-1F5AA5295A44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WFHSocial.Api.Application.Tests", "WFHSocial.Api.Application.Tests\WFHSocial.Api.Application.Tests.csproj", "{DAC045B6-7053-412E-BA0E-632FC80DF4C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2EF92E7-EE4F-47B8-BB9C-88EEE3F24E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2EF92E7-EE4F-47B8-BB9C-88EEE3F24E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2EF92E7-EE4F-47B8-BB9C-88EEE3F24E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2EF92E7-EE4F-47B8-BB9C-88EEE3F24E02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{889C19AD-0387-4272-A20E-4124EBB4485A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{889C19AD-0387-4272-A20E-4124EBB4485A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{889C19AD-0387-4272-A20E-4124EBB4485A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{889C19AD-0387-4272-A20E-4124EBB4485A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6BE3B9D-23A3-43DD-B0BB-A693A303D5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6BE3B9D-23A3-43DD-B0BB-A693A303D5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6BE3B9D-23A3-43DD-B0BB-A693A303D5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6BE3B9D-23A3-43DD-B0BB-A693A303D5B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DBB0221-16F0-4CD6-A348-3D13DD2885FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DBB0221-16F0-4CD6-A348-3D13DD2885FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DBB0221-16F0-4CD6-A348-3D13DD2885FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DBB0221-16F0-4CD6-A348-3D13DD2885FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36095C4B-1390-4770-BA58-43E6438D1C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36095C4B-1390-4770-BA58-43E6438D1C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36095C4B-1390-4770-BA58-43E6438D1C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36095C4B-1390-4770-BA58-43E6438D1C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7681B8-C8F0-4346-AEA1-4418C53FA3C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7681B8-C8F0-4346-AEA1-4418C53FA3C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7681B8-C8F0-4346-AEA1-4418C53FA3C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7681B8-C8F0-4346-AEA1-4418C53FA3C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AD1F5CC-EC84-4855-9034-B7D9E484877A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AD1F5CC-EC84-4855-9034-B7D9E484877A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AD1F5CC-EC84-4855-9034-B7D9E484877A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AD1F5CC-EC84-4855-9034-B7D9E484877A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40053FDC-AD03-48EC-BD57-4FB7092D08C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40053FDC-AD03-48EC-BD57-4FB7092D08C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40053FDC-AD03-48EC-BD57-4FB7092D08C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40053FDC-AD03-48EC-BD57-4FB7092D08C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3142E816-F708-47AA-A74E-1F5AA5295A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3142E816-F708-47AA-A74E-1F5AA5295A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3142E816-F708-47AA-A74E-1F5AA5295A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3142E816-F708-47AA-A74E-1F5AA5295A44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC045B6-7053-412E-BA0E-632FC80DF4C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC045B6-7053-412E-BA0E-632FC80DF4C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC045B6-7053-412E-BA0E-632FC80DF4C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC045B6-7053-412E-BA0E-632FC80DF4C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

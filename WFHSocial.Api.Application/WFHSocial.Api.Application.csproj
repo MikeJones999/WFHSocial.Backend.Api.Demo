@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+	  <PackageReference Include="Azure.Identity" Version="1.12.0" />
+	  <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+	  <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WFHSocial.Api.Domain.Posts\WFHSocial.Api.Domain.Posts.csproj" />
+    <ProjectReference Include="..\WFHSocial.Api.Domain.Users\WFHSocial.Api.Domain.Users.csproj" />
+    <ProjectReference Include="..\WFHSocial.Api.Domain\WFHSocial.Api.Domain.csproj" />
+    <ProjectReference Include="..\WFHSocial.Shared\WFHSocial.Shared.csproj" />
+    <ProjectReference Include="..\WFHSocial.Utility.StaticHelpers\WFHSocial.Utility.StaticHelpers.csproj" />
+  </ItemGroup>
+
+</Project>
