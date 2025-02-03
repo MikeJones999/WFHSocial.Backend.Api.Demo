@@ -4,7 +4,7 @@ This is a Demo project that I started to work on mid way through last year. This
 This project is in its infancy and thus is not extensive in anyway, but shows the initial setup and early developments of the project design. 
 
 Swagger is installed and will save time when testing. User needs to be created and then login. Once logged in use the Bearer token to make any further requests. Additionally a refresh token end point has been added. #
-The User can view, and edit their profile details, they can amend their settings, and can upload a profile picture (which can been seen in the azure storage).
+The User can view and edit their profile details, amend their settings, and can upload a profile picture (which can been seen in the azure storage).
 
 The users can then view and create a single post, and can recall (with use of a pagination and desc filter) all their posts - these are all stored in Azure cosmos db
 
